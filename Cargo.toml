@@ -1,0 +1,10 @@
+[package]
+name = "hwinfo"
+version = "0.1.0"
+edition = "2024"
+description = "C ABI dynamic library for CPU, motherboard, and computer name"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "hwinfo"
+crate-type = ["cdylib", "rlib"]
